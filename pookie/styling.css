@@ -1,0 +1,35 @@
+body {
+    background-color: #ffffff; /* White background */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    min-height: 100vh; /* Full viewport height */
+}
+
+.content {
+    text-align: center; /* Align text and decorations to the center */
+    margin-top: 20px; /* Space from the top */
+}
+
+.main-title {
+    color: #000000; /* Black text color */
+    margin-bottom: 20px; /* Space below the text */
+    font-size: 48px; /* Adjust font size */
+    font-weight: bold; /* Make text bold */
+}
+
+.decorations {
+    margin-top: 20px;
+}
+
+.decorations img {
+    width: 150px; /* Increase image width */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 10px; /* Adjust margin between images */
+}
